@@ -1,0 +1,189 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/usercentre/usercentre",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+				
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+			}
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style" : {
+				"navigationBarTitleText": "详情",
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" : {
+				"navigationBarTitleText": "列表"
+			}
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" : {
+				"navigationBarTitleText": "收藏"
+			}
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" : {
+				"navigationBarTitleText": "优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"navigationBarTitleText": "地址管理"
+			}
+        }
+        ,{
+            "path" : "pages/information/information",
+            "style" : {
+				"navigationBarTitleText": "消息"
+			}
+        }
+        ,{
+            "path" : "pages/orderconfirm/orderconfirm",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "全部订单",
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/evaluate/evaluate",
+            "style" : {
+				"navigationBarTitleText": "评价",
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/orderdetails/orderdetails",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/aftersale/aftersale",
+            "style" : {
+				"navigationBarTitleText": "售后管理",
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/aftersaleapply/aftersaleapply",
+            "style" : {
+				"navigationBarTitleText": "退款",
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/dialogue/dialogue",
+            "style" : {
+				"navigationBarTitleText": "聊天详情",
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/addaddress/addaddress",
+            "style" : {
+				"navigationBarTitleText": "添加地址"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#000",
+		"selectedColor":"#FF444C",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/fnav_icon1.png",
+				"selectedIconPath":"static/fnav_icon1Act.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/category/category",
+				"iconPath":"static/fnav_icon2.png",
+				"selectedIconPath":"static/fnav_icon2Act.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/fnav_icon3.png",
+				"selectedIconPath":"static/fnav_icon3Act.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/information/information",
+				"iconPath":"static/fnav_icon4.png",
+				"selectedIconPath":"static/fnav_icon4Act.png",
+				"text":"消息"
+			},
+			{
+				"pagePath":"pages/usercentre/usercentre",
+				"iconPath":"static/fnav_icon5.png",
+				"selectedIconPath":"static/fnav_icon5Act.png",
+				"text":"我的"
+			}
+		]
+	}
+	
+}

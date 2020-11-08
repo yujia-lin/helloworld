@@ -1,0 +1,43 @@
+// const ApiRootUrl = 'http://localhost:8360/api/';
+const ApiRootUrl = 'http://im.ijiwei.cn/api';
+module.exports = {
+	getCodeUrl:ApiRootUrl+"/wechat/getCodeUrl",//获取微信
+	getUsersInfo:ApiRootUrl+"/wechat/getUsersInfo",//获取微信
+	getShareSign:ApiRootUrl+"/wechat/getShareSign",//获取微信分享信息
+	getWechatSign:ApiRootUrl+"/wechat/getWechatSign",//获取
+	getUsersUsersInfo:ApiRootUrl+"/Users/getUsersInfo",//获取	
+	wxJsApiPay:ApiRootUrl+"/wechat/wxJsApiPay",//获取微信
+	getProductList:ApiRootUrl+"/product/getProductList",//获取商品列表
+	getProductData:ApiRootUrl+"/product/getProductData",//获取商品信息
+	getCateProductList:ApiRootUrl+"/product/getCateProductList",//根据分类获取所属分类的商品列表
+	getProductCate:ApiRootUrl+"/category/getProductCate",//获取品分类
+	orderList:ApiRootUrl+"/order/orderList",//获取订单列表
+	addOrder:ApiRootUrl+"/order/addOrder",//添加订单
+	getAdList:ApiRootUrl+"/Ad/getAdList",//获取首页轮播图片
+	delAddress:ApiRootUrl+'/users/delAddress',//删除地址
+	addressAdd:ApiRootUrl+"/users/addressAdd",//添加收货地址
+	addressList:ApiRootUrl+"/users/addressList",//收货地址列表
+	updateAddressData:ApiRootUrl+"/users/updateAddressData",//修改收货地址
+	getDefaultAddressData:ApiRootUrl+"/users/getDefaultAddressData",//获取默认收货地址
+	setAddressDefault:ApiRootUrl+"/users/setAddressDefault",//设置默认地址
+	getAddressData:ApiRootUrl+"/users/getAddressData",//获取单条收货地址信息
+	addCart:ApiRootUrl+"/cart/addCart",//添加商品到购物车
+	getCartList:ApiRootUrl+"/cart/getCartList",//购物车列表
+	delCart:ApiRootUrl+"/cart/delCart",//删除购物车
+	clearCart:ApiRootUrl+"/cart/clearCart",//清空购物车
+	getCollectList:ApiRootUrl+"/collect/getCollectList",//收藏列表
+	addCollect:ApiRootUrl+"/collect/addCollect",//添加收藏
+	delCollect:ApiRootUrl+"/collect/delCollect",//删除收藏
+	isCollect:ApiRootUrl+"/collect/isCollect",//是否收藏
+	getUsersCouponList:ApiRootUrl+"/users/getUsersCouponList",//优惠券列表
+	addCoupon:ApiRootUrl+"/users/addCoupon",//优惠券列表
+	searchProductList:ApiRootUrl+"/product/searchProductList",//查询商品列表
+	getSellerCouponList:ApiRootUrl+"/coupon/getSellerCouponList",//商品优惠券列表
+	orderconfirm:ApiRootUrl+"/order/orderconfirm",//确定订单
+	remindDelivery:ApiRootUrl+"/order/remindDelivery",//提醒发货
+	getNoPayOrderList:ApiRootUrl+"/order/getNoPayOrderList",//待支付列表
+	clearOrder:ApiRootUrl+"/order/clearOrder",//取消订单
+	determineReceive:ApiRootUrl+"/order/determineReceive",//确定收货
+	getOrderDetail:ApiRootUrl+"/order/getOrderDetail",//订单详情
+	orderEvaluate:ApiRootUrl+"/order/orderEvaluate",//订单评价
+};
